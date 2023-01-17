@@ -9,6 +9,6 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - odoopostgresql:/var/lib/postgresql/data
+      - ./datos:/var/lib/postgresql/data
 volumes:
   odoopostgresql:
